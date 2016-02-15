@@ -1,0 +1,25 @@
+From 66c4b88a55fd158489d95ba81f6076399a93b16f Mon Sep 17 00:00:00 2001
+From: Steve Gill <stevengill97@gmail.com>
+Date: Mon, 25 Jan 2016 16:16:52 -0800
+Subject: [PATCH] CB-10424 Incremented package version to -dev
+
+---
+ package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/package.json b/package.json
+index 1831b2b..e278db0 100644
+--- a/package.json
++++ b/package.json
+@@ -2,7 +2,7 @@
+   "author": "Andrew Lunny <alunny@gmail.com>",
+   "name": "plugman",
+   "description": "install/uninstall Cordova plugins",
+-  "version": "1.1.0",
++  "version": "1.1.1-dev",
+   "repository": {
+     "type": "git",
+     "url": "git://git-wip-us.apache.org/repos/asf/cordova-plugman.git"
+-- 
+1.9.1
+

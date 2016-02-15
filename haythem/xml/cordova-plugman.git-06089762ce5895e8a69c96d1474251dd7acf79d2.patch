@@ -1,0 +1,50 @@
+From 06089762ce5895e8a69c96d1474251dd7acf79d2 Mon Sep 17 00:00:00 2001
+From: Steve Gill <stevengill97@gmail.com>
+Date: Mon, 25 Jan 2016 14:34:17 -0800
+Subject: [PATCH] CB-10424 Updated version and RELEASENOTES.md for release
+ 1.1.0
+
+---
+ RELEASENOTES.md | 3 +++
+ package.json    | 4 ++--
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/RELEASENOTES.md b/RELEASENOTES.md
+index ac49cdd..1450455 100644
+--- a/RELEASENOTES.md
++++ b/RELEASENOTES.md
+@@ -21,6 +21,9 @@
+ 
+ # Cordova-plugman Release Notes
+ 
++### 1.1.0 (Jan 25, 2016)
++* CB-10424 Updated cordova-lib dependency to 6.0.0
++
+ ### 1.0.5 (Oct 30, 2015)
+ * CB-9800 Fixing contribute link.
+ * CB-9903 Updated cordova-lib dependency to 5.4.0
+diff --git a/package.json b/package.json
+index 7b7bfbe..1831b2b 100644
+--- a/package.json
++++ b/package.json
+@@ -2,7 +2,7 @@
+   "author": "Andrew Lunny <alunny@gmail.com>",
+   "name": "plugman",
+   "description": "install/uninstall Cordova plugins",
+-  "version": "1.0.6-dev",
++  "version": "1.1.0",
+   "repository": {
+     "type": "git",
+     "url": "git://git-wip-us.apache.org/repos/asf/cordova-plugman.git"
+@@ -17,7 +17,7 @@
+   },
+   "engineStrict":true,
+   "dependencies": {
+-    "cordova-lib": "5.4.0",
++    "cordova-lib": "6.0.0",
+     "nopt": "1.0.9",
+     "q": "1.0.1"
+   },
+-- 
+1.9.1
+
